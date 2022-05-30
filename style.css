@@ -20,10 +20,12 @@
 	font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
+
 	.header {
 		text-align: center;
 	}
+
 }
 
 .main {
@@ -42,7 +44,7 @@
 	display: flex;
 }
 
-#incomplete,
+#incomplete, 
 #completed {
 	margin: 0;
 	padding: 0px;
@@ -154,7 +156,7 @@
 .incomplete-input,
 .task-edit,
 .task-completed {
-	width: 226px
+	width: 226px;
 }
 
 .delete-image {
@@ -175,12 +177,12 @@ ul#completed label {
 
 /* Edit Task */
 ul li input[type=text] {
-	display: none
+	display: none;
 }
 
 ul li.edit-mode input[type=text] {
 	display: inline-block;
-	width: 224px
+	width: 224px;
 }
 
 ul li.edit-mode label {
